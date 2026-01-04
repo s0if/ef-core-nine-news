@@ -13,6 +13,18 @@ public class NewsDbContext : DbContext
     public DbSet<Person> Persons => Set<Person>();
     public DbSet<Book> Books => Set<Book>();
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<Person>(entity =>
+        {
+            entity.HasKey(p => p.Id);
+
+            entity.Property(p => p.PathFromPatriarch)
+                  .HasColumnType("hierarchyid");
+        });
+    }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSeeding((context, _) =>
         {

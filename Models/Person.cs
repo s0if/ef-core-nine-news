@@ -3,6 +3,7 @@
 namespace EFCoreNews.Models;
 public class Person
 {
+    private Person() { }
     public Person(HierarchyId pathFromPatriarch, string name)
     {
         PathFromPatriarch = pathFromPatriarch;
