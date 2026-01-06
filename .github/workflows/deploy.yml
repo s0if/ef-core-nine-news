@@ -23,6 +23,9 @@ jobs:
       - name: Publish
         run: dotnet publish -c Release -o C:\deploy\myapp
 
+      - name: Install EF Core CLI
+        run: dotnet tool install --global dotnet-ef
+  
       - name: Run migrations
         run: dotnet ef database update
 
