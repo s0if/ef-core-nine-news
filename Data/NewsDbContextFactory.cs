@@ -9,7 +9,7 @@ public class NewsDbContextFactory
     public NewsDbContext CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<NewsDbContext>();
-        
+//hello
         optionsBuilder.UseSqlServer(
             "Server=Saifaldin\\SQLEXPRESS02;Database=EFCoreNews;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True",
             x => x.UseHierarchyId()
