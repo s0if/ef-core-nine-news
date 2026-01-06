@@ -25,6 +25,7 @@ public class NewsDbContext : DbContext
                   .HasColumnType("hierarchyid");
         });
     }
+//hello
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSeeding((context, _) =>
         {
