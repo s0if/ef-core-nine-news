@@ -2,11 +2,13 @@ using EFCoreNews.Data;
 using EFCoreNews.Models;
 using EFCoreNews.Services;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = Environment.GetEnvironmentVariable("LocalSqlServer");
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<NewsDbContext>(options => options.UseSqlServer(connectionString));
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<NewsDbContext>(options => options.UseSqlServer(connectionString, x => x.UseHierarchyId()));
 
 builder.Services.AddScoped<EFNewsService>();
 
