@@ -1,4 +1,5 @@
 using EFCoreNews.Data;
+using EFCoreNews.Middleware;
 using EFCoreNews.Models;
 using EFCoreNews.Services;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,11 @@ builder.Services.AddDbContext<NewsDbContext>(options => options.UseSqlServer(con
 builder.Services.AddScoped<EFNewsService>();
 
 var app = builder.Build();
+var logger = app.Services.GetRequiredService<ILogger<Program>>();
+logger.LogInformation("=== Application started successfully ===");
+
+app.UseMiddleware<CorrelationIdMiddleware>();
+
 
 app.MapPost("/customer/seed", (EFNewsService service) =>
 {
@@ -68,5 +74,10 @@ app.MapGet("/post/ordered-posts-with-authors", async (EFNewsService service) =>
     var orderedPostsWithAuthors = await service.NewOrderOperators();
     return Results.Ok(orderedPostsWithAuthors);
 });
+app.MapGet("/health", () =>
+{
+    return Results.Ok(new { status = "ok" });
+});
+
 
 app.Run();
