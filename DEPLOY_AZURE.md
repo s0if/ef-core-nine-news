@@ -1,6 +1,6 @@
 var connectionString = builder.Configuration.GetConnectionString("LocalSqlServer");var connectionString = builder.Configuration.GetConnectionString("LocalSqlServer");var connectionString = builder.Configuration.GetConnectionString("LocalSqlServer");var connectionString = builder.Configuration.GetConnectionString("LocalSqlServer");var connectionString = builder.Configuration.GetConnectionString("LocalSqlServer");# Azure Deployment Guide – EFCoreNews
 
-![link website ](http://ef-core-eth5hvd9e0a0fefn.israelcentral-01.azurewebsites.net)
+http://ef-core-eth5hvd9e0a0fefn.israelcentral-01.azurewebsites.net
 This document explains the full deployment of **EFCoreNews** to **Azure App Service**, including configuration, logging, security, deployment, and database migrations.
 
 ---
