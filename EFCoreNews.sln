@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".githup", ".githup", "{02EA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{EDDE17AD-788F-4EDD-AE54-9837A37565BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreNews.Tests", "..\EFCoreNews.Tests\EFCoreNews.Tests.csproj", "{BF3BA57F-C58C-4582-B0DC-C7C790778E68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{DB8605E1-51E4-417A-BB26-69DCF506E243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB8605E1-51E4-417A-BB26-69DCF506E243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB8605E1-51E4-417A-BB26-69DCF506E243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3BA57F-C58C-4582-B0DC-C7C790778E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3BA57F-C58C-4582-B0DC-C7C790778E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3BA57F-C58C-4582-B0DC-C7C790778E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3BA57F-C58C-4582-B0DC-C7C790778E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
