@@ -79,7 +79,8 @@ Detailed Error Messages: ON
 
 Failed Request Tracing: ON
 
-! [Enable Logging] (https://drive.google.com/uc?export=view&id=1Nvq-QeDe8bOKYcSM8s6TazCV2Y9JfFyN)
+![Enable Logging](https://drive.google.com/uc?export=view&id=1Nvq-QeDe8bOKYcSM8s6TazCV2Y9JfFyN)
+---
 5️⃣ Deploy Application (Zip Deploy)
 
 Steps:
