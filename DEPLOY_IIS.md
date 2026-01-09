@@ -15,7 +15,7 @@ IIS was enabled from Windows Features with the required components:
 
 ### 📸 Screenshot: IIS_Features_Enabled.png
 
-![IIS Features Enabled](https://drive.google.com/file/d/19PEhkm09peIX45YpijMfB_PTA9QXC25C/view?usp=drive_link)
+![IIS Features Enabled](https://drive.google.com/uc?export=view&id=19PEhkm09peIX45YpijMfB_PTA9QXC25C )
 
 ---
 
@@ -25,7 +25,7 @@ The correct .NET Hosting Bundle was installed to allow IIS to host ASP.NET appli
 
 ### 📸 Screenshot: DotNet_HostingBundle_Installed.png
 
-![DotNet Hosting Bundle Installed](https://drive.google.com/file/d/1CvcDNzv_OoL8RYieVe56tJdvrda98m2U/view?usp=drive_link)
+![DotNet Hosting Bundle Installed](https://drive.google.com/uc?export=view&id=1CvcDNzv_OoL8RYieVe56tJdvrda98m2U )
 
 ---
 
@@ -45,7 +45,7 @@ C:\inetpub\wwwroot\app-news
 
 ### 📸 Screenshot: Publish_Folder_Output.png
 
-![Publish Folder Output](https://drive.google.com/file/d/1JKAajM6hSVzw6-QiD7zY0FKvwlQ8yPr_/view?usp=drive_link)
+![Publish Folder Output](https://drive.google.com/uc?export=view&id=1JKAajM6hSVzw6-QiD7zY0FKvwlQ8yPr_ )
 
 ---
 
@@ -59,7 +59,7 @@ A new website was created in IIS with:
 
 ### 📸 Screenshot: IIS_Site_Settings.png
 
-![IIS Site Settings](https://drive.google.com/file/d/1jL95jHuHY6Mn2du9Qefk8PEajxgN4p1D/view?usp=drive_link)
+![IIS Site Settings](https://drive.google.com/uc?export=view&id=1jL95jHuHY6Mn2du9Qefk8PEajxgN4p1D )
 
 ---
 
@@ -73,7 +73,7 @@ The application is running under the default IIS application pool:
 
 ### 📸 Screenshot: ApplicationPool_Settings.png
 
-![Application Pool Settings](https://drive.google.com/file/d/1W8-Cz7Bk5br75UW1ehA4C9W_Svd4l9gd/view?usp=drive_link)
+![Application Pool Settings](https://drive.google.com/uc?export=view&id=1W8-Cz7Bk5br75UW1ehA4C9W_Svd4l9gd )
 
 ---
 
@@ -82,12 +82,12 @@ The application is running under the default IIS application pool:
 The environment variable was configured:
 
 ```
-ASPNETCORE_ENVIRONMENT = Production
+ASPNETCORE_ENVIRONMENT= Production
 ```
 
 ### 📸 Screenshot: Environment_Variable_Setup.png
 
-![Environment Variable Setup](https://drive.google.com/file/d/1G2KsHbOCiLeiadlESXyxveDZOLY5si8e/view?usp=drive_link)
+![Environment Variable Setup](https://drive.google.com/uc?export=view&id=1G2KsHbOCiLeiadlESXyxveDZOLY5si8e )
 
 ---
 
@@ -127,7 +127,7 @@ This login allows SQL Server to recognize the identity under which the applicati
 
 ### 📸 Screenshot: SQL_Login_Config.png
 
-![SQL Login Configuration](https://drive.google.com/file/d/17UaEHix6ysBw4WgsFC1ucL7QPxqXNGKe/view?usp=drive_link)
+![SQL Login Configuration](https://drive.google.com/uc?export=view&id=17UaEHix6ysBw4WgsFC1ucL7QPxqXNGKe )
 
 ---
 
@@ -221,7 +221,7 @@ The application responded successfully.
 
 ### 📸 Screenshot: Live_Endpoint_Test.png
 
-![Live Endpoint Test](https://drive.google.com/file/d/18uLh4c1yNnG7rdWo_JyIEaIKJ83ONcWU/view?usp=drive_link)
+![Live Endpoint Test](https://drive.google.com/uc?export=view&id=18uLh4c1yNnG7rdWo_JyIEaIKJ83ONcWU )
 
 ---
 
