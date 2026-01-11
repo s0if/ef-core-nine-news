@@ -24,7 +24,7 @@ namespace EFCoreNews.Middleware
 
             // 3) Extra useful ids
             var traceId = Activity.Current?.TraceId.ToString() ?? context.TraceIdentifier;
-
+            // comment: This middleware adds a correlation ID to each request for better traceability in logs.
             // 4) Scope => added to every log in this request
             using (logger.BeginScope(new Dictionary<string, object>
             {
